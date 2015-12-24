@@ -31,7 +31,7 @@ Usage
 ====
 
 javascript
-
+<pre>
 document.addEventListener('deviceready', onDeviceReady);
 function onDeviceReady()
 {
@@ -51,8 +51,9 @@ function onDeviceReady()
             error
         );
 }
-
+</pre>
 Ionic/angularJS Example
+<pre>
 {
         //get source from HTML element with jqLite
         var source = angular.element(document.querySelector('#id')).html();
@@ -73,3 +74,4 @@ Ionic/angularJS Example
             window.html2pdf.create(source,"~/Documents/test.pdf", success, error);
         }
 }
+</pre>
