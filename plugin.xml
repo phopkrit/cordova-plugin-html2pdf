@@ -26,7 +26,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Html2pdf" >
-                <param name="android-package" value="at.modalog.cordova.plugin.html2pdf.Html2pdf"/>
+                <param name="android-package" value="th.azay.cordova.plugin.html2pdf.Html2pdf"/>
             </feature>
         </config-file>
 
@@ -35,7 +35,7 @@
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
         </config-file>        
 
-        <source-file src="src/android/Html2pdf.java" target-dir="src/at/modalog/cordova/plugin/html2pdf" />
+        <source-file src="src/android/Html2pdf.java" target-dir="src/th/azay/cordova/plugin/html2pdf" />
     </platform>
     
     <!-- ios -->
