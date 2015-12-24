@@ -1,4 +1,4 @@
-package at.modalog.cordova.plugin.html2pdf;
+package th.azay.cordova.plugin.html2pdf;
 
 import java.io.File;
 import java.io.FileOutputStream;
